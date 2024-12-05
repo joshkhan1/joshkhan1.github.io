@@ -559,3 +559,45 @@ p {
         padding: 10px 15px;
     }
 }
+/* Center all text in the Skills and Experience sections */
+.skills, .experience {
+    text-align: center;
+}
+
+.skills h2, .experience h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.skill, .experience-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    width: 25%; /* Adjust width as needed */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.skill h3, .experience-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.skill p, .experience-item p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.skill .btn, .experience-item .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.skill .btn:hover, .experience-item .btn:hover {
+    background-color: #444;
+}
