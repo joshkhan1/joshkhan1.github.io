@@ -1,0 +1,561 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Spread out the header elements */
+    align-items: center;
+}
+
+header h1 a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Makes the nav items inline */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50; /* Highlight color on hover */
+}
+
+/* Projects Page Styles */
+.projects {
+    padding: 40px 20px;
+}
+
+.projects h2 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects p {
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-category {
+    margin-bottom: 40px;
+}
+
+.project-category h3 {
+    color: #4CAF50;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h4 {
+    color: #4CAF50;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #ccc;
+    font-size: 1em;
+}
+
+.project-card a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.project-card a:hover {
+    color: #80e27e;
+}
+
+footer {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+}
+/* General styles for the project cards */
+.project-card {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card h4 a {
+    color: #4CAF50;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.project-card p {
+    color: #ccc;
+    font-size: 1em;
+}
+
+/* Highlighted project card */
+.project-card.highlight {
+    background-color: #444; /* Slightly darker background */
+    transform: scale(1.05);  /* Slightly larger */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); /* Green glow effect */
+}
+
+.project-card.highlight h4 a {
+    font-size: 1.5em; /* Larger font for the highlighted project title */
+}
+
+.project-card.highlight p {
+    font-size: 1.1em; /* Slightly larger text for description */
+}
+
+/* Hover effect for all project cards */
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+}
+/* General form styles */
+form {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #ccc;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #444;
+    color: #fff;
+    font-size: 1em;
+}
+
+.form-group input::placeholder, .form-group textarea::placeholder {
+    color: #bbb;
+}
+
+/* Focus and hover effects for inputs */
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 255, 0, 0.5);
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Heading and Description */
+h2 {
+    font-size: 2em;
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ccc;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Small screen responsiveness */
+@media (max-width: 768px) {
+    form {
+        padding: 20px;
+    }
+    .form-group input, .form-group textarea {
+        font-size: 0.9em;
+    }
+}
+/* Resume page styling */
+.resume-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+/* Download Button */
+.download-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the download button */
+.download-btn:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    font-size: 2em;
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ccc;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Small screen responsiveness */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 10px;
+    }
+
+    .download-btn {
+        font-size: 1em;
+    }
+}
+/* Resume page styling */
+.resume-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+/* Download Button Container (to center the button) */
+.download-btn-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    margin-top: 20px; /* Add space between resume content and button */
+}
+
+/* Download Button */
+.download-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the download button */
+.download-btn:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    font-size: 2em;
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ccc;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Small screen responsiveness */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 10px;
+    }
+
+    .download-btn {
+        font-size: 1em;
+    }
+}
+/* Profile Picture Styles */
+.profile-picture {
+    text-align: center; /* Centers the image */
+    margin-top: 40px; /* Adds space at the top */
+    margin-bottom: 30px; /* Adds space below the image */
+}
+
+.profile-img {
+    width: 200px; /* Adjust the width of the image */
+    height: 200px; /* Adjust the height of the image */
+    border-radius: 50%; /* Makes the image round */
+    border: 5px solid #4CAF50; /* Adds a green border around the image */
+    object-fit: cover; /* Ensures the image fits inside the circle */
+}
+
+.about {
+    font-size: 1.2em;
+    color: #ccc;
+    line-height: 1.6;
+    margin-top: 30px;
+    text-align: center; /* Centers the text */
+}
+
+h2 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about {
+        font-size: 1em;
+    }
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #ccc;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #222;
+    color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+/* Sections Styling */
+section {
+    margin: 40px 0;
+    padding: 20px;
+    border-bottom: 2px solid #4CAF50;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills .skill-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skills .skill {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skill h3 {
+    color: #4CAF50;
+    font-size: 1.5em;
+}
+
+/* Featured Projects */
+.projects .project-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Experience Section */
+.experience .experience-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.experience-item {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.date {
+    color: #ccc;
+    font-size: 1em;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+}
+
+.contact .btn {
+    background-color: #4CAF50;
+    padding: 12px
+}
+/* Contact Button Styling */
+.contact-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+.contact-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+/* Social Media Button Styles */
+.social-btn {
+    display: inline-block;
+    background-color: #0077b5; /* LinkedIn's blue color */
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: #005f8a; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
+/* Specific LinkedIn Button Style */
+.linkedin i {
+    margin-right: 8px;
+}
+
+/* Responsive Social Button */
+@media (max-width: 768px) {
+    .social-btn {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+}
