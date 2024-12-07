@@ -138,7 +138,7 @@ footer {
 .project-card.highlight {
     background-color: #444; /* Slightly darker background */
     transform: scale(1.05);  /* Slightly larger */
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); /* Green glow effect */
+    box-shadow: 0 0 15px rgb(74, 144, 226); /* Blue glow effect */
 }
 
 .project-card.highlight h4 a {
@@ -152,7 +152,7 @@ footer {
 /* Hover effect for all project cards */
 .project-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.7);
+    box-shadow: 0 0 15px rgb(74, 144, 226);   
 }
 /* General form styles */
 form {
