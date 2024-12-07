@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #4CAF50; /* Highlight color on hover */
+    background-color: #4a90e2; /* Highlight color on hover */
 }
 
 /* Projects Page Styles */
@@ -51,7 +51,7 @@ nav ul li a:hover {
 }
 
 .projects h2 {
-    color: #4CAF50;
+    color: #4a90e2;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -67,7 +67,7 @@ nav ul li a:hover {
 }
 
 .project-category h3 {
-    color: #4CAF50;
+    color: #4a90e2;
     font-size: 1.5em;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -87,7 +87,7 @@ nav ul li a:hover {
 }
 
 .project-card h4 {
-    color: #4CAF50;
+    color: #4a90e2;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
@@ -98,7 +98,7 @@ nav ul li a:hover {
 }
 
 .project-card a {
-    color: #4CAF50;
+    color: #4a90e2;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -124,7 +124,7 @@ footer {
 }
 
 .project-card h4 a {
-    color: #4CAF50;
+    color: #4a90e2;
     font-size: 1.2em;
     text-decoration: none;
 }
@@ -192,14 +192,14 @@ form {
 
 /* Focus and hover effects for inputs */
 .form-group input:focus, .form-group textarea:focus {
-    border-color: #4CAF50;
+    border-color: #4a90e2;
     outline: none;
     box-shadow: 0 0 8px rgba(0, 255, 0, 0.5);
 }
 
 /* Submit Button */
 .submit-btn {
-    background-color: #4CAF50;
+    background-color: #4a90e2;
     color: white;
     padding: 14px 20px;
     border: none;
@@ -218,7 +218,7 @@ form {
 /* Heading and Description */
 h2 {
     font-size: 2em;
-    color: #4CAF50;
+    color: #4a90e2;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -250,7 +250,7 @@ p {
 
 /* Download Button */
 .download-btn {
-    background-color: #4CAF50;
+    background-color: #4a90e2;
     color: white;
     padding: 12px 20px;
     border-radius: 8px;
@@ -269,7 +269,7 @@ p {
 
 h2 {
     font-size: 2em;
-    color: #4CAF50;
+    color: #4a90e2;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -309,7 +309,7 @@ p {
 
 /* Download Button */
 .download-btn {
-    background-color: #4CAF50;
+    background-color: #4a90e2;
     color: white;
     padding: 12px 20px;
     border-radius: 8px;
@@ -327,7 +327,7 @@ p {
 
 h2 {
     font-size: 2em;
-    color: #4CAF50;
+    color: #4a90e2;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -360,7 +360,7 @@ p {
     width: 200px; /* Adjust the width of the image */
     height: 200px; /* Adjust the height of the image */
     border-radius: 50%; /* Makes the image round */
-    border: 5px solid #4CAF50; /* Adds a green border around the image */
+    border: 5px solid #4a90e2; /* Adds a green border around the image */
     object-fit: cover; /* Ensures the image fits inside the circle */
 }
 
@@ -374,7 +374,7 @@ p {
 
 h2 {
     font-size: 2em;
-    color: #4CAF50;
+    color: #4a90e2;
     margin-bottom: 20px;
 }
 
@@ -404,7 +404,7 @@ body {
 /* Header and Navigation */
 header {
     background-color: #222;
-    color: #4CAF50;
+    color: #4a90e2;
     padding: 20px;
     text-align: center;
 }
@@ -428,12 +428,12 @@ nav ul li a {
 section {
     margin: 40px 0;
     padding: 20px;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #4a90e2;
 }
 
 h2 {
     font-size: 2.5em;
-    color: #4CAF50;
+    color: #4a90e2;
     margin-bottom: 20px;
 }
 
@@ -461,7 +461,7 @@ p {
 }
 
 .skill h3 {
-    color: #4CAF50;
+    color: #4a90e2;
     font-size: 1.5em;
 }
 
@@ -479,7 +479,7 @@ p {
 }
 
 .project a {
-    color: #4CAF50;
+    color: #4a90e2;
     text-decoration: none;
     font-weight: bold;
 }
@@ -508,14 +508,14 @@ p {
 }
 
 .contact .btn {
-    background-color: #4CAF50;
+    background-color: #4a90e2;
     padding: 12px
 }
 /* Contact Button Styling */
 .contact-btn {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #4CAF50;
+    background-color: #4a90e2;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
